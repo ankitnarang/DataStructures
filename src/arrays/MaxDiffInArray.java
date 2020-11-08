@@ -15,7 +15,7 @@ public class MaxDiffInArray {
 	public static void main(String[] args) {
 		int[] arr = {1, 2, 90, 10, 110};
 		//{2, 3, 10, 6, 4, 8, 1};
-		System.out.println(findMax(arr));
+		System.out.println(findMax(arr)); // 109
 	}
 
 	private static int findMax(int[] arr) {

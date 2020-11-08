@@ -9,7 +9,7 @@ public class Permutations {
 	static List<String> result = new ArrayList<>();
 	
 	public static void main(String[] args) {
-		String str = "ANKIT";
+		String str = "ABC";
 		int len = str.length();
 		permute(str,0,len);
 		Collections.sort(result);

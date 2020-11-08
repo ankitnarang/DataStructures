@@ -23,10 +23,10 @@ public class MinimumHeightOfBT {
 		if(root == null)
 			return 0;
 		
-		int lHeight = minimumDepth(root.left) + 1;
-		int rHeight = minimumDepth(root.right) + 1;
+		int lHeight = minimumDepth(root.left);
+		int rHeight = minimumDepth(root.right);
 		
-		return Math.min(lHeight, rHeight);
+		return Math.min(lHeight, rHeight) + 1;
 	}
 
 }
