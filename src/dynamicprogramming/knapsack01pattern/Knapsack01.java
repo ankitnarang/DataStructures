@@ -1,6 +1,8 @@
-package dynamicprogramming;
+package dynamicprogramming.knapsack01pattern;
 
 public class Knapsack01 {
+    // Question Link : https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+    // Good Reference : https://www.youtube.com/watch?v=kvyShbFVaY8&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=3&ab_channel=AdityaVerma
     public static void main(String[] args) {
         int price[] = {60,100,120};
         int weight[] = {10,20,30};

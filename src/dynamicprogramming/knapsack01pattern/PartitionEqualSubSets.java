@@ -1,9 +1,11 @@
-package dynamicprogramming;
+package dynamicprogramming.knapsack01pattern;
 
 
 import java.util.HashMap;
 
 public class PartitionEqualSubSets {
+    // Question Link : https://www.geeksforgeeks.org/partition-problem-dp-18/
+    // Good Reference : https://www.youtube.com/watch?v=UmMh7xp07kY&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=8&ab_channel=AdityaVerma
     public static void main(String[] args) {
         int[] nums = {1,5,11,5}; //{1,2,3,5};
         boolean result = canPartition(nums);

@@ -1,6 +1,8 @@
-package dynamicprogramming;
+package dynamicprogramming.knapsack01pattern;
 
 public class SubsetSum {
+    // Question Link : https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+    // Good Reference : https://www.youtube.com/watch?v=_gPcYovP7wc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=7&ab_channel=AdityaVerma
     public static void main(String[] args) {
         int[] set = {3,34,4,12,5,2};
         int sum = 9;

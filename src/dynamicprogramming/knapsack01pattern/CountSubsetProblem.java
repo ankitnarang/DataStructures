@@ -1,6 +1,8 @@
-package dynamicprogramming;
+package dynamicprogramming.knapsack01pattern;
 
 public class CountSubsetProblem {
+    // Question Link : https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/
+    // Good Reference : https://www.youtube.com/watch?v=F7wqWbqYn9g&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=9&ab_channel=AdityaVerma
     public static void main(String[] args) {
         int[] arr = {1,2,3,3};
         int sum = 6;
