@@ -1,6 +1,7 @@
-package dynamicprogramming;
+package dynamicprogramming.lcspattern;
 
 public class LongestCommonSequence {
+    //Reference Link : Scalar Video
     public static void main(String[] args) {
         String str1 = "abbcdgf"; //"aaaaaa";
         String str2 =  "bbadcgf"; //"ababab";
@@ -8,12 +9,12 @@ public class LongestCommonSequence {
         int result = lcsRecursive(str1,str2);
         System.out.println("Length of longest common subsequence is " + result);
 
-        result = lcsNonRecursive(str1,str2);
+        result = lcsIterative(str1,str2);
         System.out.println("Length of longest common subsequence is " + result);
 
     }
 
-    private static int lcsNonRecursive(String str1, String str2) {
+    private static int lcsIterative(String str1, String str2) {
         int m = str1.length();
         int n = str2.length();
 
