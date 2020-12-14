@@ -1,8 +1,8 @@
 package dynamicprogramming.matrixchainmultiplicationpattern;
 
 public class MatrixChainMultiplication {
-    // Question Link :
-    // Reference Link :
+    // Question Link : https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/
+    // Reference Link : https://www.youtube.com/watch?v=kMK148J9qEE&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=34&ab_channel=AdityaVerma
     static int[][] dp;
     public static void main(String[] args) {
         int[] arr = {10, 20, 30};
